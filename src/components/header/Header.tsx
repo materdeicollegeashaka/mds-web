@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png"
 const Header = () => {
     const navLinkStyle = ' border-2 border-transparent hover:border-b-slate-200'
   return (
-    <header className=' p-4 bg-slate-800 text-white'>
+    <header className=' fixed p-4 bg-slate-800 text-white w-full'>
       <nav className=' flex justify-between items-center px-4'>
         <Link href="/" className=''>
             <Image src={logo} alt='Mater Dei' width={50}/>
